@@ -37,7 +37,7 @@ function desencriptarMensaje(string $mensajeEncriptado, string $llave):string {
 }
 
 if ($argc !== 4) {
-    echo "El modo de uso es: php script.php {encriptar|desencriptar} <llave> <mensaje>\n";
+    echo "El modo de uso es: php index.php {encriptar|desencriptar} <llave> <mensaje>\n";
     exit;
 }
 
